@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.115" height="38.188" viewBox="0 0 34.115 38.188">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.943" y1="0.125" x2="0.189" y2="0.886" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#21d6be"/>
+      <stop offset="1" stop-color="#005c27"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.952" y1="-1.056" x2="0.189" y2="0.886" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="グループ_59222" data-name="グループ 59222" transform="translate(1.001 0)">
+    <g id="グループ_59221" data-name="グループ 59221">
+      <path id="合体_4" data-name="合体 4" d="M13535.7,9086.024a17.032,17.032,0,0,1-10.42-15.712h0V9051.48h1.007l.93-.351c.762,2.019,4.186,3.584,6.625,3.584,3.271,0,7.5-2.686,7.5-5.537h2c0,2.852,4.22,5.537,7.493,5.537,2.44,0,5.867-1.565,6.626-3.584l.932.351h1v18.832h0a17.062,17.062,0,0,1-23.691,15.712Zm6.643-.66a15.067,15.067,0,0,0,15.048-15.052h0v-15.956a9.8,9.8,0,0,1-1.616,1.055,11.057,11.057,0,0,1-4.945,1.3,11.2,11.2,0,0,1-6.173-2.1,2.319,2.319,0,0,0-4.638,0,11.209,11.209,0,0,1-6.177,2.1,11.043,11.043,0,0,1-4.944-1.3,9.884,9.884,0,0,1-1.616-1.055v15.956h0A15.072,15.072,0,0,0,13542.344,9085.364Z" transform="translate(-13526.282 -9049.177)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="線_17" data-name="線 17" d="M1,11.912H-1V0H1Z" transform="translate(16.057 11.721)" fill="url(#linear-gradient-2)"/>
+    <path id="線_18" data-name="線 18" d="M1,2.752H-1V0H1Z" transform="translate(16.057 27.303)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

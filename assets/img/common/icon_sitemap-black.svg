@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.651" height="25.042" viewBox="0 0 29.651 25.042">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_11" data-name="長方形 11" width="29.65" height="25.042" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_sitemap-black" transform="translate(0 0)">
+    <rect id="長方形_6" data-name="長方形 6" width="7.814" height="7.812" transform="translate(10.919 0)"/>
+    <rect id="長方形_7" data-name="長方形 7" width="7.814" height="7.814" transform="translate(10.919 17.228)"/>
+    <rect id="長方形_8" data-name="長方形 8" width="7.814" height="7.814" transform="translate(0 17.228)"/>
+    <rect id="長方形_9" data-name="長方形 9" width="7.814" height="7.814" transform="translate(21.837 17.228)"/>
+    <g id="グループ_7" data-name="グループ 7" transform="translate(0 0)">
+      <g id="グループ_6" data-name="グループ 6" clip-path="url(#clip-path)">
+        <path id="パス_5" data-name="パス 5" d="M25.3,13.534H23.931V9.374H3.463v4.16H2.094V8.689a.684.684,0,0,1,.684-.684H24.616a.684.684,0,0,1,.684.684Z" transform="translate(1.029 3.932)"/>
+        <rect id="長方形_10" data-name="長方形 10" width="1.369" height="9.653" transform="translate(14.04 7.812)"/>
+      </g>
+    </g>
+  </g>
+</svg>
