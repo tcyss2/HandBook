@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="ja" class="hltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>令和6年度 中小企業サイバーセキュリティ社内体制整備事業</title>
+    <link rel="stylesheet" type="text/css" href="../style/book-style.css" />
+  </head>
+
+<body class="p-text">
+<div class="main">
+
+
+	<h2>用語集</h2>
+
+
+  <div class="p-home-seminer_detail-item">
+    <h4 class="color_blue">AI</h4>
+    <p class="p-home-about__text">Artificial Intelligenceの略。「AI（人工知能）」という言葉は、昭和31年に米国の計算機科学研究者ジョン・マッカーシーが初めて使った言葉。昭和25年代後半から昭和35年代が第一次AIブーム、昭和55年代が第二次AIブーム、現在は平成20年代から始まる第三次AIブームである（近年の大規模言語モデルなどの登場を契機に、第4次AIブームに入ったとの見方もある）。「AI」に関する確立した定義はないが、人間の思考プロセスと同じような形で動作するプログラム、あるいは人間が知的と感じる情報処理・技術といった広い概念で理解されている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./01/page-1-1.html">1-1</a>
+      <a href="./03/page-3-1.html">3-1</a>
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./06/page-6-1.html">6-1</a>
+      <a href="./06/page-6-2.html">6-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary2">
+    <h4 class="color_blue">BCP</h4>
+    <p class="p-home-about__text">Business Continuity Plan（事業継続計画）の略。企業が災害やテロ攻撃などの緊急事態に直面した際に、被害を最小限に抑え、企業の存続に関わる最も重要な事業を継続または早期復旧するための計画</p>
+    <div class="p-home-seminar_caption">
+      <a href="./11/page-11-5.html">11-5</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary3">
+    <h4 class="color_blue">CSIRT（シーサート）</h4>
+    <p class="p-home-about__text">Computer Security Incident Response Teamの略。コンピュータセキュリティにかかるインシデントに対処するための組織の総称。インシデント関連情報、脆弱性情報、攻撃予兆情報を常に収集、分析し、対応方針や手順の策定などの活動を行う</p>
+    <div class="p-home-seminar_caption">
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./11/page-11-5.html">11-5</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary4">
+    <h4 class="color_blue">CVSS</h4>
+    <p class="p-home-about__text">Common Vulnerability Scoring Systemの略。情報システムの脆弱性に対するオープンで汎用的な評価手法のこと。ベンダーに依存しない共通の評価方法を提供している。CVSSを用いると、脆弱性の深刻度を同一の基準の下で定量的に比較できるようになる。ベンダー、セキュリティ専門家、管理者、ユーザーなどの間で、脆弱性に関して共通の言葉で議論できるようになる。</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary5">
+    <h4 class="color_blue">DDoS攻撃（ディードスこうげき）</h4>
+    <p class="p-home-about__text">Distributed Denial of Service Attackの略。攻撃者が複数のコンピュータを操作し、標的となるコンピュータに対して同時に大量の問い合わせを送ることにより、過剰な負荷をかけてサービスを利用できなくする攻撃手法</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./08/page-8-1.html">8-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary6">
+    <h4 class="color_blue">DFFT</h4>
+    <p class="p-home-about__text">Data Free Flow with Trustの略。日本が提案したコンセプトであり、ビジネスや社会的な課題を解決するために、データの国際的な自由な流れを促進すると同時に、プライバシー、セキュリティ、知的財産権に対する信頼を確保することを目指している</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary7">
+    <h4 class="color_blue">EDR</h4>
+    <p class="p-home-about__text">Endpoint Detection and Responseの略。パソコンやスマートフォン、サーバなどのエンドポイントにおける不審な動作を検知し、迅速な対応を支援するソリューション。従来のツールやソリューションでは防げなかった未知のマルウェアや不正アクセスを検知し被害の拡大を防止する</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-1.html">2-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./10/page-10-2.html">10-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary8">
+    <h4 class="color_blue">eKYC</h4>
+    <p class="p-home-about__text">electronic Know Your Customer の略称。オンラインで完結可能な本人確認方法のこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary9">
+    <h4 class="color_blue">GビズID</h4>
+    <p class="p-home-about__text">行政手続きなどにおいて手続きを行う法人を認証するための仕組み。1つのID・パスワードで本人確認書類なしにさまざまな政府・自治体の法人向けオンライン申請が可能になる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary10">
+    <h4 class="color_blue">ICSCoE中核人材育成プログラム</h4>
+    <p class="p-home-about__text">平成29年4月に独立行政法人情報処理推進機構（IPA）内に設置された産業サイバーセキュリティセンター（Industrial Cyber Security Center of Excellence, ICSCoE）が実施している人材育成プログラム。制御技術（OT：Operational Technology）と情報技術（IT）の両方の知識・スキルを有し、社会インフラ・産業基盤へのサイバーセキュリティリスクに対応できる人材の育成を目的としている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary11">
+    <h4 class="color_blue">ICT</h4>
+    <p class="p-home-about__text">Information and Communication Technologyの略。IT（情報技術）に加えて、コンピュータやスマートフォンなどを用いて行うコミュニケーションを実現する技術（通信技術）を含んでいる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./06/page-6-1.html">6-1</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary12">
+    <h4 class="color_blue">IDS</h4>
+    <p class="p-home-about__text">Intrusion Detection Systemの略。不正アクセスや異常な通信を検知して管理者に通知するシステムのこと。IPSと異なり、不正アクセスや異常な通信をブロックする機能はない。</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary13">
+    <h4 class="color_blue">IoT（アイ・オー・ティー）</h4>
+    <p class="p-home-about__text">Internet of Thingsの略。日本語では「モノのインターネット」。インターネットにコンピュータやセンサー、カメラ、産業機械、家電などさまざまな「モノ」が接続され、データを収集したり、相互に情報をやり取りしたりする概念や仕組み、技術のこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./01/page-1-1.html">1-1</a>
+      <a href="./03/page-3-1.html">3-1</a>
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-2.html">4-2</a>
+      <a href="./04/page-4-3.html">4-3</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./06/page-6-1.html">6-1</a>
+      <a href="./06/page-6-2.html">6-2</a>
+      <a href="./11/page-11-4.html">11-4</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary14">
+    <h4 class="color_blue">IPS</h4>
+    <p class="p-home-about__text">Intrusion Prevention Systemの略。不正侵入防止システムとも呼ばれるセキュリティ確保の仕組み。IPSは、異常を検知した場合、管理者に通知するに加えて、その通信を遮断する</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary15">
+    <h4 class="color_blue">IPアドレス</h4>
+    <p class="p-home-about__text">コンピュータをネットワークで接続するために、それぞれのコンピュータに割り振られた一意になる数字の組み合わせ。 IPアドレスは、127.0.0.1のように0～255までの数字を4つ組み合わせたもので、単にアドレスと略されることがある。 現在主に使用されているこれら4つになる数字の組み合わせによるアドレス体系は、IPv4（アイ・ピー・ブイフォー）と呼ばれている。また、今後情報家電などで大量にIPアドレスが消費される時代に備えて、次期規格として、IPv6（アイ・ピー・ブイシックス）と呼ばれるアドレス体系への移行が進みつつある。なお、IPv6では、アドレス空間の増加に加えて、情報セキュリティ機能の追加などの改良も加えられている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-3.html">5-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary16">
+    <h4 class="color_blue">ISAC</h4>
+    <p class="p-home-about__text">Information Sharing and Analysis Centerの略。業界内での情報共有・連携の取り組み推進を図る組織のこと。国内では、金融や交通、電力、ICTなどの分野にISACがある。ICT-ISACでは、ICT分野の情報セキュリティに関する情報(インシデント情報を含む。)の収集・調査・分析を行っている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary17">
+    <h4 class="color_blue">ISMS</h4>
+    <p class="p-home-about__text">Information Security Management Systemの略称。情報セキュリティを確保するための、組織的、人的、運用的、物理的、技術的、法令的なセキュリティ対策を含む、経営者を頂点とした総合的で組織的な取組。組織がISMSを構築するための要求事項をまとめた国際規格がISO/IEC 27001（国内規格はJIS Q 27001）であり、審査機関の審査に合格すると「ISMS認証」を取得できる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./00/page-0-1.html">0-1</a>
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./editorialnote.html-5.html">第5編-編集後記</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-2.html">11-2</a>
+      <a href="./11/page-11-3.html">11-3</a>
+      <a href="./11/page-11-4.html">11-4</a>
+      <a href="./11/page-11-5.html">11-5</a>
+      <a href="./12/page-12-1.html">12-1</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./editorialnote.html-6.html">第6編-編集後記</a>
+      <a href="./13/page-13-1.html">13-1</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./13/page-13-4.html">13-4</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-1.html">15-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary18">
+    <h4 class="color_blue">ISP</h4>
+    <p class="p-home-about__text">個人や企業などに対してインターネットに接続するためのサービスを提供する事業者のこと。ユーザーはISPと契約し、回線を用いてISPが運営するネットワークに接続することで、インターネット上のサーバーなどへアクセスできる。</p>
+    <div class="p-home-seminar_caption">
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary19">
+    <h4 class="color_blue">ITリテラシー</h4>
+    <p class="p-home-about__text">コンピュータやインターネットをはじめとする情報技術（IT）を適切に活用する基礎的な知識や技能</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary20">
+    <h4 class="color_blue">JPCERT/CC</h4>
+    <p class="p-home-about__text">日本におけるセキュリティインシデントなどの報告の受け付け、対応の支援、発生状況の把握、手口の分析、再発防止のための対策の検討や助言などを、技術的な立場から行なっている組織。政府機関や企業などから独立した中立の組織として、日本における情報セキュリティ対策活動の向上に積極的に取り組んでいる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary21">
+    <h4 class="color_blue">JVN</h4>
+    <p class="p-home-about__text">Japan Vulnerability Notesの略。日本で使用されているソフトウェアなどの脆弱性関連情報と対策情報を提供する、脆弱性対策情報ポータルサイトのこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary22">
+    <h4 class="color_blue">LockBit2.0</h4>
+    <p class="p-home-about__text">「Your files are encrypted by LockBit」というメッセージを表示させ、身代金を要求するマルウェア（ランサムウェア）。感染するとファイルが暗号化され、拡張子が「.LockBit」に変更される</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary23">
+    <h4 class="color_blue">MACアドレス</h4>
+    <p class="p-home-about__text">Media Access Control addressの略。隣接する機器同士の通信を実現するためのアドレスのこと。ネットワーク機器やPC、ルータなどについている固有の識別番号で、一般的に12桁の16進数で「00-00-00-XX-XX-XX」などと表される</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary24">
+    <h4 class="color_blue">NISC</h4>
+    <p class="p-home-about__text">National center of Incident readiness and Strategy for Cybersecurityの略。内閣サイバーセキュリティセンターの略称。サイバーセキュリティに関する施策の立案や実施、行政各部の情報システムに対するセキュリティ対策の強化を担当</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./04/page-4-3.html">4-3</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./10/page-10-2.html">10-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary25">
+    <h4 class="color_blue">NIST サイバーセキュリティフレームワーク（CSF）</h4>
+    <p class="p-home-about__text">米国政府機関の重要インフラの運用者を対象として誕生し、防御に留まらず、検知・対応・復旧といった、インシデント対応が含まれている。日本においても、今後普及が見込まれる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./11/page-11-3.html">11-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary26">
+    <h4 class="color_blue">NTP</h4>
+    <p class="p-home-about__text">Network Time Protocolの略。あらゆる機器の時刻情報を同期するためのプロトコル（通信規約）のこと。時刻情報を配信するサーバと、時刻合わせを行うクライアント間、およびサーバ間の通信方法を定めている</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary27">
+    <h4 class="color_blue">PII</h4>
+    <p class="p-home-about__text">Personally Identifiable Informationの略。「個人を特定できる情報」と訳されることが多いが、実際には個人を特定するために使用される情報のこと。個人と1対1に紐づいているマイナンバー、メールアドレス、携帯電話番号、銀行口座番号だけでなく、氏名、生年月日、住所、勤務先などの情報もPIIに含まれる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary28">
+    <h4 class="color_blue">RPA</h4>
+    <p class="p-home-about__text">Robotic Process Automationの略。定型的な業務をソフトウェアのロボットにより自動化すること</p>
+    <div class="p-home-seminar_caption">
+      <a href="./06/page-6-2.html">6-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary29">
+    <h4 class="color_blue">SASE（サシー）</h4>
+    <p class="p-home-about__text">Secure Access Service Edgeの略。令和元年に提唱されたゼロトラストセキュリティを実現する方法の1つで、IT環境のネットワークの機能とセキュリティの機能をクラウドサービス上で統合して提供するサービス、また、その考え方・概念</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary30">
+    <h4 class="color_blue">SBOM（エスボム）</h4>
+    <p class="p-home-about__text">Software Bill of Materialsの略。ソフトウェアを構成する要素を一覧できるリストのこと。SBOMは、ソフトウェアの構成要素の名称やバージョン情報、開発者、依存関係などの情報を含む。SBOMは、ソフトウェアのリスクを把握・管理するのに役立つ</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary31">
+    <h4 class="color_blue">SDP</h4>
+    <p class="p-home-about__text">Software-Defined Perimeterの略。ゼロトラストを実現するための仕組みで、すべての通信をチェックおよび認証する。VPNは、ネットワーク接続前に一度だけ認証を行うのに対し、SDPは、ユーザーの情報（デバイス、場所、OSなど）など複数の要素からネットワーク接続前、接続中、接続後で検証と認証を行う</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary32">
+    <h4 class="color_blue">SECURITY ACTION</h4>
+    <p class="p-home-about__text">中小企業自らが、情報セキュリティ対策に取り組むことを自己宣言する制度</p>
+    <div class="p-home-seminar_caption">
+      <a href="./editorialnote.html-1.html">第1編-編集後記</a>
+      <a href="./02/page-2-2.html">2-2</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./11/page-11-5.html">11-5</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary33">
+    <h4 class="color_blue">SLA</h4>
+    <p class="p-home-about__text">Service Level Agreementの略。サービス提供者と利用者の間で結ばれるサービスの品質に関して合意する契約のこと。サービスを提供する事業者が利用者に対して、どの程度の品質を保証できるのかを明示したもの</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary34">
+    <h4 class="color_blue">Society5.0</h4>
+    <p class="p-home-about__text">日本が目指すべき未来社会の姿として、平成28年に閣議決定された「第5期科学技術基本計画」において内閣府が提唱した概念。サイバー空間（仮想空間）とフィジカル空間（現実空間）を高度に融合させたシステムにより、経済発展と社会的課題の解決を両立する、人間中心の社会（Society）で、狩猟社会、農業社会、工業社会、情報社会の次にくる社会として位置づけられている。</p>
+    <div class="p-home-seminar_caption">
+      <a href="./01/page-1-1.html">1-1</a>
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./06/page-6-1.html">6-1</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-4.html">11-4</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary35">
+    <h4 class="color_blue">SSL/TLS</h4>
+    <p class="p-home-about__text">WebサーバとWebブラウザとの通信において、データを暗号化して送受信する仕組みのこと。これにより、通信の途中で情報の盗聴・改ざんや、なりすましを防ぐことができる。過去にはSSLが使われていたが、脆弱性が発見されたため、TLS（v.1.2以降）への移行が進んでおり、今ではSSLは使われなくなってきている。しかし、歴史的経緯でSSLの用語が広く普及しているため、本テキストでは「SSL/TLS」と表記する</p>
+    <div class="p-home-seminar_caption">
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary36">
+    <h4 class="color_blue">SWG</h4>
+    <p class="p-home-about__text">Secure Web Gatewayの略。社内と社外のネットワーク境界で通信を中継する役割を持っている。また、やり取りしているデータを分析し、悪意のあるデータを遮断することによりセキュアな通信環境を実現</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary37">
+    <h4 class="color_blue">VPN（Virtual Private Network）</h4>
+    <p class="p-home-about__text">Virtual Private Networkの略。インターネット上で安全性の高い通信を実現するための手法。通信データを暗号化し、送信元から送信先までの通信を保護することにより、盗聴やデータの改ざんを防ぐ。VPN（Virtual Private  Network）を使用することによって、ユーザーは物理的に独立した専用線で通信しているかのような安全な通信を行うことができる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./10/page-10-2.html">10-2</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary38">
+    <h4 class="color_blue">WAF（ワフ）</h4>
+    <p class="p-home-about__text">Web Application Firewallの略。 従来のファイアウォールが、IPアドレスとポート番号で通信を制御していたことに対して、Webアプリケーションの脆弱性を狙うサイバー攻撃を防ぐことを目的として、アプリケーションレベルで通信を制御（分析・検知・遮断）するファイアウォールのこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary39">
+    <h4 class="color_blue">WAN</h4>
+    <p class="p-home-about__text">Wide Area Networkの略。広義には、広い地域をカバーするネットワークのことで、インターネットとほぼ同義の言葉として使われる。一方、狭義には、物理的に離れた場所にあるLAN（オフィスのフロアや建物内など狭いエリアで構築されたネットワーク）同士を接するネットワークを指し、特定のユーザーしかアクセスできない。このプライベートなWANを構築する場合には、通信事業者に依頼する必要がある</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary40">
+    <h4 class="color_blue">アクセス制御</h4>
+    <p class="p-home-about__text">特定のデータやファイル、コンピュータ、ネットワークにアクセスできるユーザーを制限する機能のこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./11/page-11-3.html">11-3</a>
+      <a href="./12/page-12-3.html">12-3</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary41">
+    <h4 class="color_blue">アセスメント</h4>
+    <p class="p-home-about__text">システムや運用環境などを客観的に調査・評価すること。現在の利用状況を把握することにより、システムの再構築や運用改善の参考情報となる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./09/page-9-2.html">9-2</a>
+      <a href="./11/page-11-3.html">11-3</a>
+      <a href="./12/page-12-2.html">12-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary42">
+    <h4 class="color_blue">暗号化</h4>
+    <p class="p-home-about__text">データの内容を変換し、第三者には、内容を見ても解読できないようにすること</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./09/page-9-2.html">9-2</a>
+      <a href="./10/page-10-2.html">10-2</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary43">
+    <h4 class="color_blue">アンダーグラウンドサービス</h4>
+    <p class="p-home-about__text">合法ではない非公式な活動が行われるオンラインの闇市場やコミュニティでサイバー攻撃を目的としたツールなどを販売しているサービス</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary44">
+    <h4 class="color_blue">イベントログ</h4>
+    <p class="p-home-about__text">コンピュータシステムに起こった出来事や、行われた操作などを時系列に記録したデータのこと</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary45">
+    <h4 class="color_blue">インターネットバンキング</h4>
+    <p class="p-home-about__text">インターネットを利用して銀行との取引を行うサービスのこと。銀行の窓口やATMに出向かなくても、スマートフォンやパソコンなどを使って、いつでも利用可能な時間帯に振り込みや残高照会などの取引を行うことができる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-2.html">2-2</a>
+      <a href="./12/page-12-1.html">12-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary46">
+    <h4 class="color_blue">ウイルス定義ファイル（パターンファイル）</h4>
+    <p class="p-home-about__text">セキュリティソフトウェアがマルウェアを検出するための定義情報が入ったファイル。実世界で言えば顔写真付きの手配書のようなもの</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-1.html">2-1</a>
+      <a href="./02/page-2-2.html">2-2</a>
+      <a href="./10/page-10-2.html">10-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary47">
+    <h4 class="color_blue">エンティティ</h4>
+    <p class="p-home-about__text">個人、組織、団体、コンピュータシステム、通信機器など、多様な実体のこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./11/page-11-2.html">11-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary48">
+    <h4 class="color_blue">エンドポイントデバイス</h4>
+    <p class="p-home-about__text">ネットワークに接続して、ネットワークを介して情報を交換するデバイス（デスクトップコンピュータ、仮想マシン、サーバなど）</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary49">
+    <h4 class="color_blue">改ざん</h4>
+    <p class="p-home-about__text">文書や記録などのすべてまたは一部に対して、無断で修正・変更を加えること。IT分野では、権限を持たない者が管理者に無断でコンピュータにアクセスし、データの書き換え・作成・削除などをする行為</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./04/page-4-2.html">4-2</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./10/page-10-2.html">10-2</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./12/page-12-3.html">12-3</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary50">
+    <h4 class="color_blue">可用性</h4>
+    <p class="p-home-about__text">許可された者だけが必要なときにいつでも情報や情報資産にアクセスできる特性</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./09/page-9-2.html">9-2</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-2.html">11-2</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary51">
+    <h4 class="color_blue">完全性</h4>
+    <p class="p-home-about__text">参照する情報が改ざんされていなく、正確である特性</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./09/page-9-2.html">9-2</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-2.html">11-2</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-1.html">15-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary52">
+    <h4 class="color_blue">機密性</h4>
+    <p class="p-home-about__text">許可された者だけが情報や情報資産にアクセスできる特性</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./09/page-9-2.html">9-2</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-2.html">11-2</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-1.html">15-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary53">
+    <h4 class="color_blue">脅威インテリジェンス</h4>
+    <p class="p-home-about__text">サイバー攻撃などの脅威への対応を支援することを目的として、収集・分析・蓄積された情報のこと。一部の産業では、企業横断的にこうした情報（インテリジェンス）を共有する活動が行われている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary54">
+    <h4 class="color_blue">供給者</h4>
+    <p class="p-home-about__text">組織に対して、製品・サービスを供給する企業または個人のこと。製品の場合、PCやサーバ、通信機器などがある。サービスの場合、クラウドサービス、インターネット接続サービス、業務の委託、物流、教育などがある</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary55">
+    <h4 class="color_blue">クラッキング</h4>
+    <p class="p-home-about__text">悪意を持って情報システムに侵入し、データの改ざん・機密情報の盗み出し・サーバ攻撃・情報システムの破壊などの行為</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary56">
+    <h4 class="color_blue">クリーンインストール</h4>
+    <p class="p-home-about__text">すでにインストールされているOSを削除したうえで、新しくOSを再インストールする方法のこと。記憶領域にあるデータはすべて消去されるので、データはバックアップから復元する必要がある</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary57">
+    <h4 class="color_blue">限定提供データ</h4>
+    <p class="p-home-about__text">不正競争防止法で次のように定義されている。「業として特定の者に提供する情報として電磁的方法（電子的方法、磁気的方法その他人の知覚によっては認識することができない方法を言う。次項において同じ。）により相当量蓄積され、及び管理されている技術上または営業上の情報（秘密として管理されているものを除く。）を言う。」</p>
+    <div class="p-home-seminar_caption">
+      <a href="./12/page-12-2.html">12-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary58">
+    <h4 class="color_blue">個人情報保護委員会</h4>
+    <p class="p-home-about__text">個人情報の有用性を考慮しながらも、個人の権利や利益を保護するために、個人情報の適切な取扱いを確保することを任務とする、独立性の高い行政機関（組織的には内閣府の外局）。個人情報保護法およびマイナンバー法に基づき、個人情報の保護に関する基本方針の策定・推進や個人情報などの取扱いに関する監視・監督、認定個人情報保護団体に関する事務などの業務を行っている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-3.html">4-3</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary59">
+    <h4 class="color_blue">コーディング</h4>
+    <p class="p-home-about__text">プログラミング言語でソースコードを書くこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-3.html">13-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary60">
+    <h4 class="color_blue">サイバー攻撃</h4>
+    <p class="p-home-about__text">インターネットを通じて、別の企業や組織、ときに国家を攻撃する行為の総称。対象は、個人が所有するパソコンやスマートフォンから、企業のサーバやデータベース、国の重要インフラまでさまざまである。デジタル社会となった現代では、インターネット空間をサイバー空間と呼ぶ。サイバー空間において、敵対する国家、企業、集団、個人などを攻撃する行為やその防御をサイバー戦争と呼ぶこともある。</p>
+    <div class="p-home-seminar_caption">
+      <a href="./00/page-0-1.html">0-1</a>
+      <a href="./02/page-2-1.html">2-1</a>
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./04/page-4-2.html">4-2</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./06/page-6-3.html">6-3</a>
+      <a href="./editorialnote.html-2.html">第2編-編集後記</a>
+      <a href="./10/page-10-2.html">10-2</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-4.html">11-4</a>
+      <a href="./11/page-11-5.html">11-5</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./13/page-13-2.html">13-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary61">
+    <h4 class="color_blue">サイバーセキュリティお助け隊サービス制度</h4>
+    <p class="p-home-about__text">「サイバーセキュリティお助け隊サービス」は、中小企業のセキュリティ対策に不可欠な各種サービスをワンパッケージにまとめた、民間事業者による安価なサービス。独立行政法人情報処理推進機構（IPA）は中小企業向けセキュリティサービスが満たすべき基準を設定しており、同基準を充足するサービスに「お助け隊マーク」を付与し、同サービスの普及促進活動を行っている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary62">
+    <h4 class="color_blue">サイバーセキュリティ戦略</h4>
+    <p class="p-home-about__text">組織や企業がセキュリティに関する目標を達成するための計画やアプローチ</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./03/page-3-1.html">3-1</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./04/page-4-3.html">4-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary63">
+    <h4 class="color_blue">サイバー・フィジカル・セキュリティ対策フレームワーク（CPSF）</h4>
+    <p class="p-home-about__text">単純なサイバー空間（仮想空間）におけるセキュリティ対策から、サイバー空間とフィジカル空間（現実空間）のそれぞれにおけるリスクを洗い出し、そのセキュリティ対策を整理するためのフレームワーク</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-4.html">11-4</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary64">
+    <h4 class="color_blue">サプライチェーン</h4>
+    <p class="p-home-about__text">製品やサービスの供給に関わる一連のプロセスのこと。具体的には、原材料や部品の調達、生産、物流、販売など、製品やサービスが最終的に消費者に届くまでの流れを指す。サプライチェーンは、製造業者、卸売業者、小売業者などが協力して構築される</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./04/page-4-2.html">4-2</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./06/page-6-1.html">6-1</a>
+      <a href="./06/page-6-2.html">6-2</a>
+      <a href="./06/page-6-3.html">6-3</a>
+      <a href="./editorialnote.html-2.html">第2編-編集後記</a>
+      <a href="./11/page-11-3.html">11-3</a>
+      <a href="./11/page-11-4.html">11-4</a>
+      <a href="./11/page-11-5.html">11-5</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary65">
+    <h4 class="color_blue">サポートユーティリティ</h4>
+    <p class="p-home-about__text">情報システムを運用する施設の稼動に不可欠な設備やライフライン、公共インフラのこと。ISO/IEC 27002:2022では、サポートユーティリティの例として、電気、通信サービス、給水、ガス、下水、換気、空調をあげている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary66">
+    <h4 class="color_blue">シャドーIT</h4>
+    <p class="p-home-about__text">従業員が業務に使用するIT機器やサービスのうち、企業が把握していないものを指す。具体的には、普段プライベートで使用しているオンラインストレージといったクラウドサービス、個人所有のデバイスなどで、組織の許可なく業務に利用しているもの</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary67">
+    <h4 class="color_blue">磁気データ消去装置</h4>
+    <p class="p-home-about__text">ハードディスクに強力な磁気を照射することで、ハードディスク内の磁気記録領域に記録されている情報を破壊する装置のこと。短時間で効率よく、大量のハードディスクのデータを完全に消去できる</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary68">
+    <h4 class="color_blue">情報資産</h4>
+    <p class="p-home-about__text">営業秘密など事業に必要で組織にとって価値のある情報や、顧客や従業員の個人情報など管理責任を伴う情報</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-2.html">2-2</a>
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./09/page-9-2.html">9-2</a>
+      <a href="./10/page-10-2.html">10-2</a>
+      <a href="./11/page-11-3.html">11-3</a>
+      <a href="./11/page-11-5.html">11-5</a>
+      <a href="./12/page-12-1.html">12-1</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./editorialnote.html-6.html">第6編-編集後記</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-4.html">13-4</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary69">
+    <h4 class="color_blue">情報セキュリティ事象</h4>
+    <p class="p-home-about__text">情報セキュリティ上よくない、システムやサービス、ネットワークの状態のこと。情報セキュリティ事象の中でも、事業運営を危うくしたり、情報セキュリティを脅かしたりする可能性が高いものは、セキュリティインシデントに分類される</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary70">
+    <h4 class="color_blue">情報セキュリティの3要素「CIA」</h4>
+    <p class="p-home-about__text">情報セキュリティの3つの要素、機密性（Confidentiality）、完全性（Integrity） 、可用性（Availability）の頭文字をとって「CIA」と呼ぶ</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary71">
+    <h4 class="color_blue">真正性</h4>
+    <p class="p-home-about__text">情報セキュリティマネジメントの付加的な要素で、利用者、プロセス、システム、情報などが、主張通りであることを確実にする特性のこと。真正性を低下させる例としては、なりすまし行為などがある</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./04/page-4-2.html">4-2</a>
+      <a href="./11/page-11-2.html">11-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary72">
+    <h4 class="color_blue">信頼性</h4>
+    <p class="p-home-about__text">システムが実行する処理に欠陥や不具合がなく、想定した通りの処理が実行される特性</p>
+    <div class="p-home-seminar_caption">
+      <a href="./01/page-1-1.html">1-1</a>
+      <a href="./02/page-2-2.html">2-2</a>
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./04/page-4-2.html">4-2</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-2.html">11-2</a>
+      <a href="./11/page-11-4.html">11-4</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary73">
+    <h4 class="color_blue">スクリーンセーバ</h4>
+    <p class="p-home-about__text">離席時にPCの画面の内容を盗み見されることを防ぐ機能のこと。PCに対して一定時間ユーザーによる操作がなかった場合、自動的にアニメーションや写真などを表示し、作業中の情報を見せないようにする</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-2.html">13-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary74">
+    <h4 class="color_blue">スクリーンロック</h4>
+    <p class="p-home-about__text">デバイスの誤動作や勝手に操作されることを防ぐための機能。スクリーンロック画面になっているときはパスワードやロックパターンの入力、指紋や顔の認証をしなければ解除することができない</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary75">
+    <h4 class="color_blue">脆弱性</h4>
+    <p class="p-home-about__text">情報システム（ハードウェア、ソフトウェア、ネットワークなどを含む）におけるセキュリティ上の欠陥のこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-1.html">2-1</a>
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./editorialnote.html-3.html">第3編-編集後記</a>
+      <a href="./12/page-12-1.html">12-1</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./12/page-12-3.html">12-3</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary76">
+    <h4 class="color_blue">脆弱性診断</h4>
+    <p class="p-home-about__text">システムや機器などにおいて、セキュリティ上の欠陥がないか診断すること</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary77">
+    <h4 class="color_blue">責任追跡性</h4>
+    <p class="p-home-about__text">情報資産に対する参照や変更などの操作を、どのユーザーが行ったものかを確認することができる特性</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./11/page-11-2.html">11-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary78">
+    <h4 class="color_blue">セキュリティインシデント</h4>
+    <p class="p-home-about__text">セキュリティの事故・出来事のこと。単に「インシデント」とも呼ばれる。例えば、情報の漏えいや改ざん、破壊・消失、情報システムの機能停止またはこれらにつながる可能性のある事象などがインシデントに該当</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-1.html">2-1</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./06/page-6-3.html">6-3</a>
+      <a href="./09/page-9-1.html">9-1</a>
+      <a href="./09/page-9-2.html">9-2</a>
+      <a href="./editorialnote.html-4.html">第4編-編集後記</a>
+      <a href="./11/page-11-3.html">11-3</a>
+      <a href="./11/page-11-5.html">11-5</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary79">
+    <h4 class="color_blue">セキュリティ・キャンプ</h4>
+    <p class="p-home-about__text">情報セキュリティに関する高度な技術と倫理に関する講習・演習を行う合宿。審査に通過した22歳以下の学生・生徒が対象。次代を担う情報セキュリティ人材を発掘・育成するために、独立行政法人情報処理推進機構（IPA）と（一財）セキュリティ・キャンプ協議会が実施している</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary80">
+    <h4 class="color_blue">セキュリティホール</h4>
+    <p class="p-home-about__text">情報システムにおけるセキュリティ上の欠陥のこと。「脆弱性」とほぼ同義であるが、セキュリティホールは、ソフトウェアの設計上のミスやプログラムの不具合によって発生するセキュリティ上の脆弱性のみを指す場合がある</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./editorialnote.html-4.html">第4編-編集後記</a>
+      <a href="./10/page-10-2.html">10-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary81">
+    <h4 class="color_blue">セキュリティポリシー</h4>
+    <p class="p-home-about__text">企業や組織において実施する情報セキュリティ対策の方針や行動指針のこと。社内規定といった組織全体のルールから、どのような情報資産をどのような脅威からどのように守るのかといった基本的な考え方、情報セキュリティを確保するための体制、運用規定、基本方針、対策基準などを具体的に記載することが一般的</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./04/page-4-2.html">4-2</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./editorialnote.html-3.html">第3編-編集後記</a>
+      <a href="./11/page-11-5.html">11-5</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary82">
+    <h4 class="color_blue">ゼロデイ攻撃</h4>
+    <p class="p-home-about__text">OSやソフトウェアに存在する脆弱性が公開された後、修正プログラムや回避策がベンダーから提供されるまでの間に、その脆弱性を悪用して行われるサイバー攻撃のこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary83">
+    <h4 class="color_blue">ゼロトラスト</h4>
+    <p class="p-home-about__text">従来の「社内を信用できる領域、社外を信用できない領域」という考え方とは異なり、社内外を問わず、すべてのネットワーク通信を信用できない領域として扱い、すべての通信を検知し認証するという新しいセキュリティの考え方</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary84">
+    <h4 class="color_blue">ソフトウェアライブラリ</h4>
+    <p class="p-home-about__text">プログラムにおいてよく利用される機能を切り出し、再利用しやすいようにまとめたもので、プログラム作成のための部品のこと。ライブラリを利用することで、1から作る必要がなくなり、効率的に開発を行うことができる</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary85">
+    <h4 class="color_blue">ソリューション</h4>
+    <p class="p-home-about__text">問題や課題を解決するための具体的な解決策や手段を指す。ある特定の課題やニーズに対して提供される解決方法やアプローチのことを指すことが一般的で、ビジネスシーンにおけるソリューションの意味とは「顧客が抱える問題や課題を解決すること」</p>
+    <div class="p-home-seminar_caption">
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary86">
+    <h4 class="color_blue">ダークウェブ</h4>
+    <p class="p-home-about__text">特別な手法でないとアクセスできない、匿名性の高い非公開のWebサイトのこと。漏えいした個人情報や機密情報、危険な商品、クラッキングツールなど、違法なものが取引されている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary87">
+    <h4 class="color_blue">多要素認証</h4>
+    <p class="p-home-about__text">多要素認証は、サービス利用時において利用者の認証を行うために、3つの要素（①利用者だけが知っている情報②利用者の所有物③利用者の生体情報）のうち、少なくとも2つ以上の要素を組み合わせて認証する安全性が高い認証方法。例えば、利用者が知っている情報としてはパスワード、利用者の所有物としては、スマートフォンの電話番号を用いたメッセージ認証、利用者の生体情報としては指紋認証や顔認識などがある。また、近年ではFIDO2と呼ばれる、デバイスを使用したパスキーによる認証により、パスワードレスでの認証が広まっている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./10/page-10-2.html">10-2</a>
+      <a href="./12/page-12-3.html">12-3</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary88">
+    <h4 class="color_blue">データサイエンス</h4>
+    <p class="p-home-about__text">数学、統計、人工知能などの技術を用いて、大量のデータを解析し、ビジネスに有益な知見を抽出すること</p>
+    <div class="p-home-seminar_caption">
+      <a href="./01/page-1-1.html">1-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary89">
+    <h4 class="color_blue">データマスキング</h4>
+    <p class="p-home-about__text">個人情報や機密情報が含まれるデータを扱う際に、特定の部位のみを無意味な符号（アスタリスク「※」など）に置き換える処理のこと。もとのデータの一部を秘匿化し、個人や機密情報を識別できないようにすることで、データ分析やテストデータなどに利用可能とする</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-3.html">13-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary90">
+    <h4 class="color_blue">デジタル化</h4>
+    <p class="p-home-about__text">紙などで管理されてきた情報（非デジタル情報）をデジタル化するデジタイゼーション（digitization）と、デジタル技術を用いてビジネス・プロセスを自動化・合理化するデジタライゼーション（digitalization）がある。音楽ビジネスで言えば、アナログ記録のレコードをCD（コンパクトディスク）にすることがデジタイゼーション、音楽をダウンロード販売することがデジタライゼーションである</p>
+    <div class="p-home-seminar_caption">
+      <a href="./01/page-1-1.html">1-1</a>
+      <a href="./03/page-3-1.html">3-1</a>
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./04/page-4-2.html">4-2</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./06/page-6-1.html">6-1</a>
+      <a href="./06/page-6-2.html">6-2</a>
+      <a href="./11/page-11-4.html">11-4</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary91">
+    <h4 class="color_blue">デジタル情報</h4>
+    <p class="p-home-about__text">0、1、2のような離散的に（数値として）変化する量</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary92">
+    <h4 class="color_blue">トラフィック</h4>
+    <p class="p-home-about__text">通信回線やネットワーク上で送受信される信号やデータ、データ量のこと</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-1.html">2-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary93">
+    <h4 class="color_blue">内部監査</h4>
+    <p class="p-home-about__text">内部の独立した監査組織が業務やシステムの評価、監査、アドバイスを行う活動である。情報セキュリティマネジメントシステム（ISMS）に関する国際規格であるISO27001の監査では、ポリシーや規定、手順に適合し、各情報資産が確実に守られているか確認する</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./11/page-11-2.html">11-2</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-4.html">13-4</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary94">
+    <h4 class="color_blue">ハウジングサービス</h4>
+    <p class="p-home-about__text">データセンターのラック（サーバを収容する鍵の付いた棚）とサーバに接続する回線や電源を貸し出すサービスのこと。自社が所有しているサーバを、物理的にセキュリティが強固なデータセンターに設置し、運用できるため、セキュリティを強化できるメリットがある。</p>
+    <div class="p-home-seminar_caption">
+      <a href="./10/page-10-2.html">10-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary95">
+    <h4 class="color_blue">ビジネスインパクト分析</h4>
+    <p class="p-home-about__text">災害など不測の事態によって業務やシステムが停止した場合に、会社の事業に与える影響度を評価すること。BCP（事業継続計画）を立てるうえで実行する必要がある</p>
+    <div class="p-home-seminar_caption">
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary96">
+    <h4 class="color_blue">ビジネスメール詐欺</h4>
+    <p class="p-home-about__text">攻撃者がビジネス用のメールを装い、企業の担当者をだまして、不正送金や機密情報の流出などの原因となる攻撃。BEC（ベック）Business Email Compromiseとも略される</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary97">
+    <h4 class="color_blue">ビッグデータ</h4>
+    <p class="p-home-about__text">全体を把握することが困難な程、膨大な規模のデータ群</p>
+    <div class="p-home-seminar_caption">
+      <a href="./01/page-1-1.html">1-1</a>
+      <a href="./03/page-3-2.html">3-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary98">
+    <h4 class="color_blue">否認防止性</h4>
+    <p class="p-home-about__text">システムに対する操作・通信のログを取得や本人に認証させることにより行動を否認させないようにする特性</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary99">
+    <h4 class="color_blue">標的型攻撃</h4>
+    <p class="p-home-about__text">機密情報を盗み取ることなどを目的として、特定の個人や組織を狙った攻撃。業務関連のメールを装ったウイルス付きメール（標的型攻撃メール）を、組織の担当者に送付する手口が知られている。従来は府省庁や大手企業が中心に狙われてきたが、最近では地方公共団体や中小企業もそのターゲットとなっている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./13/page-13-2.html">13-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary100">
+    <h4 class="color_blue">標的型メール攻撃</h4>
+    <p class="p-home-about__text">特定の個人や組織を標的にしたフィッシング攻撃の一種。一般のフィッシング攻撃とは異なり、業界ニュースや社内情報といった情報を利用するため、業務上のメールと見分けがつかない内容や、業務で付き合いがある人物の名前で送られることもある</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary101">
+    <h4 class="color_blue">ファイアウォール</h4>
+    <p class="p-home-about__text">本来は「防火壁」のことだが、情報セキュリティの世界では、外部のネットワークからの攻撃や不正なアクセスから企業や組織のネットワークやコンピュータ、データなどを守るためのソフトウェアやハードウェアを指す。パソコンのOSに付随しているもの、セキュリティソフトウェアに付いているもの、専用のハードウェアになっているものなど形態はさまざまである</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-1.html">2-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary102">
+    <h4 class="color_blue">ファイル共有ソフト</h4>
+    <p class="p-home-about__text">複数の利用者によるネットワークでのファイルのやりとりを可能にしたソフトウェアのこと。不特定多数でファイルを共有するソフトは、自動的にファイルを送受信する仕組みであるため、ウイルスの感染によって、公開したくないファイルがインターネットに流出するトラブルなどが多く発生している。不特定多数でファイルを共有するファイル共有ソフトは、使用を禁止する必要がある</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary103">
+    <h4 class="color_blue">不正アクセス</h4>
+    <p class="p-home-about__text">利用権限を持たない悪意のあるユーザーが、企業や組織で管理されている情報システムやサービスに不正にアクセスすること。不正アクセスにより、正規の個人情報の窃取やデータの改ざんや破壊などの危険がある。日本では、平成12年2月に施行された不正アクセス行為の禁止などに関する法律（不正アクセス禁止法）により、法律で固く禁じられている</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+      <a href="./04/page-4-3.html">4-3</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./06/page-6-3.html">6-3</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./12/page-12-3.html">12-3</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary104">
+    <h4 class="color_blue">踏み台</h4>
+    <p class="p-home-about__text">不正侵入の中継地点として利用されるコンピュータのこと。他人のコンピュータに侵入するときに、直接自分のコンピュータから接続すると、接続元のIPアドレスによって、犯人が特定されてしまう可能性がある。そこで、いくつかのコンピュータを経由してから、目的のコンピュータに接続することにより、犯人が自分のコンピュータを探しにくくする。このように、現実的な被害はないけれども、不正侵入の中継地点としてのみ利用されるコンピュータのことを踏み台と呼ぶ</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary105">
+    <h4 class="color_blue">フォレンジック</h4>
+    <p class="p-home-about__text">犯罪捜査における分析や鑑識を意味する言葉。サイバーセキュリティの分野で使われる「フォレンジック」とは、セキュリティ事故が起きた際に、端末やネットワーク内の情報を収集し、被害状況の解明や犯罪捜査に必要な法的証拠を明らかにする取組を指す。「デジタル・フォレンジック」や「コンピュータ・フォレンジック」などと呼ばれる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary106">
+    <h4 class="color_blue">ブラックマーケット</h4>
+    <p class="p-home-about__text">広義には、不法な取引が行われる市場を指す。不正に入手した個人情報などを売買するインターネット上の市場（闇市）</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary107">
+    <h4 class="color_blue">フレームワーク</h4>
+    <p class="p-home-about__text">フレームワーク（サイバーセキュリティフレームワーク）とは、マルウェアやサイバー攻撃などさまざまなセキュリティ上の脅威から、情報システムやデータを守るために、システム上の仕組みや人的な体制の整備を整える方法を「ひな型」としてまとめたもの</p>
+    <div class="p-home-seminar_caption">
+      <a href="./00/page-0-1.html">0-1</a>
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./04/page-4-1.html">4-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./editorialnote.html-5.html">第5編-編集後記</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-2.html">11-2</a>
+      <a href="./11/page-11-3.html">11-3</a>
+      <a href="./11/page-11-4.html">11-4</a>
+      <a href="./editorialnote.html-6.html">第6編-編集後記</a>
+      <a href="./13/page-13-1.html">13-1</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./14/page-14-1.html">14-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary108">
+    <h4 class="color_blue">プロキシ</h4>
+    <p class="p-home-about__text">クライアントとサーバの中間で、両者の通信を中継する役割を担うサーバのこと。プロキシは、クライアントからのリクエストやサーバからの応答をすべて把握することが可能なため、詳細な通信内容をログとして記録したり、Webサーバから送られてきたコンテンツをチェックし、不正なコードやマルウェアが含まれていないかをチェックしたりできる</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary109">
+    <h4 class="color_blue">ブロックチェーン</h4>
+    <p class="p-home-about__text">複数のコンピュータを使用し、分散的にデータをブロック単位にまとめて鎖（チェーン）のように記録する、オープンな分散型台帳。ビットコインなどの暗号資産に使われている仕組み</p>
+    <div class="p-home-seminar_caption">
+      <a href="./01/page-1-1.html">1-1</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary110">
+    <h4 class="color_blue">ペネトレーションテスト</h4>
+    <p class="p-home-about__text">ネットワークに接続されたシステムの安全性を検証するテスト手法。すでに知られているサイバー攻撃手法を使って実際にシステムに侵入や攻撃を試みることで攻撃耐性を確認する</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary111">
+    <h4 class="color_blue">ベストプラクティス</h4>
+    <p class="p-home-about__text">何かを行う方法や工程、その実践例の中で、ある基準にしたがって最も優れていると評価されたもののこと。実績や経験に基づいて確立された成功例やよい成果をもたらす方法論</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./11/page-11-1.html">11-1</a>
+      <a href="./11/page-11-3.html">11-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary112">
+    <h4 class="color_blue">マルウェア</h4>
+    <p class="p-home-about__text">パソコンやスマートフォンなどのデバイスやサービス、ネットワークに害を与えたり、悪用したりすることを目的として作成された悪意のあるソフトウェアの総称。コンピュータウイルスやワームなどが含まれる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-1.html">2-1</a>
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./08/page-8-1.html">8-1</a>
+      <a href="./10/page-10-2.html">10-2</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary113">
+    <h4 class="color_blue">ミラサポコネクト</h4>
+    <p class="p-home-about__text">ビッグデータを活用して事業を伸ばしたい中小企業を応援するための「ミラサポコネクト構想」をもとにした、行政、支援者、民間事業者に分散して保有されているデータ（法人情報、決算情報、経営カルテなど）を連携し、経営課題解決に資する支援を提供するための、官民データ連携基盤</p>
+    <div class="p-home-seminar_caption">
+      <a href="./03/page-3-2.html">3-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary114">
+    <h4 class="color_blue">ミドルウェア</h4>
+    <p class="p-home-about__text">OSとアプリケーションの中間に位置するソフトウェアのこと。アプリケーションが業務に関する処理を行う際、データベースやサーバのやりとりをミドルウェアが担うことで複雑な処理を行うことができる</p>
+    <div class="p-home-seminar_caption">
+      <!-- <a href="./00/page-0-0.html">0-0</a> -->
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary115">
+    <h4 class="color_blue">無線LAN</h4>
+    <p class="p-home-about__text">LANはLocal Area Networkの略。物理的なケーブルを使わず、電波を利用してネットワークに接続する仕組み。この無線LANを通じて、コンピュータはインターネットなどのネットワークにアクセスすることができる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-2.html">2-2</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary116">
+    <h4 class="color_blue">無停電電源装置</h4>
+    <p class="p-home-about__text">UPSとも呼ばれる。停電が起きてしまったときに電気を一定時間供給し続けるための装置のこと。パソコンやハードディスク、サーバなどを予期せぬ停電から守れる</p>
+    <div class="p-home-seminar_caption">
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary117">
+    <h4 class="color_blue">ユーティリティプログラム</h4>
+    <p class="p-home-about__text">コンピュータで、システムの運用を支援するプログラムのこと。具体的には、記憶媒体間のデータ転送、ファイルの複写・削除・整理などの処理を行うためのプログラムのこと。システムおよびアプリケーションによる制御を無効にすることのできるものもある</p>
+    <div class="p-home-seminar_caption">
+      <a href="./13/page-13-3.html">13-3</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary118">
+    <h4 class="color_blue">ランサムウェア</h4>
+    <p class="p-home-about__text">悪意のあるマルウェアの一種。パソコンなどのファイルを暗号化し利用不可能な状態とし、解除と引き換えに被害者から身代金（ransom）を要求する</p>
+    <div class="p-home-seminar_caption">
+      <a href="./00/page-0-1.html">0-1</a>
+      <a href="./02/page-2-1.html">2-1</a>
+      <a href="./05/page-5-1.html">5-1</a>
+      <a href="./05/page-5-2.html">5-2</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./editorialnote.html-2.html">第2編-編集後記</a>
+      <a href="./07/page-7-1.html">7-1</a>
+      <a href="./11/page-11-5.html">11-5</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary119">
+    <h4 class="color_blue">リスクアセスメント</h4>
+    <p class="p-home-about__text">企業や組織が持つ情報資産に対するリスクの分析・評価を行うプロセスのこと。具体的には情報資産の特定、脅威と脆弱性の特定と評価、リスクの分析と評価を行う。リスク評価の結果、許容できるもの以外は何らかのセキュリティ対策を講じる必要がある</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./09/page-9-1.html">9-1</a>
+      <a href="./12/page-12-1.html">12-1</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./12/page-12-3.html">12-3</a>
+      <a href="./editorialnote.html-6.html">第6編-編集後記</a>
+      <a href="./13/page-13-2.html">13-2</a>
+      <a href="./13/page-13-3.html">13-3</a>
+      <a href="./13/page-13-4.html">13-4</a>
+      <a href="./14/page-14-1.html">14-1</a>
+      <a href="./15/page-15-1.html">15-1</a>
+      <a href="./15/page-15-2.html">15-2</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary120">
+    <h4 class="color_blue">リスク評価</h4>
+    <p class="p-home-about__text">組織やプロジェクトにおける特定されたリスクに対して、重要度や影響度を評価するプロセス</p>
+    <div class="p-home-seminar_caption">
+      <a href="./02/page-2-3.html">2-3</a>
+      <a href="./05/page-5-3.html">5-3</a>
+      <a href="./09/page-9-1.html">9-1</a>
+      <a href="./09/page-9-2.html">9-2</a>
+      <a href="./12/page-12-2.html">12-2</a>
+      <a href="./12/page-12-3.html">12-3</a>
+      <a href="./13/page-13-4.html">13-4</a>
+    </div>
+  </div>
+  <div class="p-home-seminer_detail-item" id="glossary121">
+    <h4 class="color_blue">リモートデスクトップ接続</h4>
+    <p class="p-home-about__text">パソコン、タブレット、スマートフォンなどのデバイスを使用して、遠隔地から特定のパソコンに接続する方法</p>
+    <div class="p-home-seminar_caption">
+      <a href="./05/page-5-2.html">5-2</a>
+    </div>
+  </div>
+  
+
+<!--
+div <h4 class="color_blue">章の目的</h4>
+<p class="color-black">第15章では、情報セキュリティ方針に従ってセキュリティ対策を実施するための具体的な規則としての「対策基準」と、セキュリティ対策の実施手順や方法である「実施手順」について学ぶことを目的とします。</p>
+div <h4 class="color_blue">主な達成目標</h4>
+<ul class="circle color-black">
+  <li>組織的管理策をもとに、対策基準を策定する手順を理解すること。</li>
+  <li>策定した対策基準をもとに、具体的な実施手順を策定する方法を理解すること。</li>
+</ul>-->
+
+</div>
+
+
+</body>
+</html>
